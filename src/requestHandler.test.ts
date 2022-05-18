@@ -10,7 +10,7 @@ import {
   Command,
   HeadingCache,
   PluginManifest,
-} from "mocks/obsidian";
+} from "../mocks/obsidian";
 
 describe("requestHandler", () => {
   const API_KEY = "my api key";
