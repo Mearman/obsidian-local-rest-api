@@ -4,9 +4,12 @@
   "description": "Get, change or otherwise interact with your notes in Obsidian via a REST API.",
   "main": "main.js",
   "scripts": {
+    "predev": "npm install",
     "dev": "node esbuild.config.mjs",
+    "prebuild": "npm install",
     "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
     "version": "node version-bump.mjs && git add manifest.json versions.json",
+    "pretest": "npm install",
     "test": "jest",
     "docs": "node_modules/swagger-ui-cli/bin/swagger-ui docs/openapi.yaml"
   },
