@@ -26,7 +26,7 @@
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
     "builtin-modules": "^3.2.0",
-    "esbuild": "0.13.12",
+    "esbuild": "0.25.0",
     "jest": "^26",
     "obsidian": "https://github.com/obsidianmd/obsidian-api/tarball/master",
     "supertest": "^6.2.2",
